@@ -2,6 +2,7 @@
 
 include_once 'includes/dbh.inc.php';
 
+$date = $_POST['date'];
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $location = $_POST['location'];

@@ -15,7 +15,7 @@ $seconds = $_POST['seconds'];
 $regrind = $_POST['regrind'];
 $waste = $_POST['waste'];
 
-    $sql = "INSERT INTO production (date, location, shift, line, firstname, lastname, discmodel, plastic, firsts, seconds, regrind, waste) VALUES ($date, $location, $shift, $line, $fname, $lname, $disc, $plastic, $firsts, $seconds, $regrind, $waste);";
+    $sql = "INSERT INTO production (date, location, shift, line, firstname, lastname, discmodel, plastic, firsts, seconds, regrind, waste) VALUES ('$date', '$location', '$shift', '$line', '$fname', '$lname', '$disc', '$plastic', '$firsts', '$seconds', '$regrind', '$waste');";
 
     mysqli_query($conn, $sql)
 

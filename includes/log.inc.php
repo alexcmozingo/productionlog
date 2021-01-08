@@ -20,4 +20,5 @@ $sql = "INSERT INTO production (date, location, shift, line, firstname, lastname
 mysqli_query($conn, $sql)
 
 
+
 ?>
